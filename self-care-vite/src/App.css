@@ -1,0 +1,11 @@
+.app {
+    width: 400px;
+    border: 2px solid salmon;
+}
+
+.hello-message {
+    margin: 20px 0 0 10px;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--happy);
+}

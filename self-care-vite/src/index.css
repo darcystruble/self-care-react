@@ -1,0 +1,27 @@
+:root {
+    /* VARIABLES */
+    /* fonts */
+    --main-font: 'Montserrat Alternates', sans-serif;
+    --emoji-font: 'Noto Emoji', sans-serif;
+    /* colors */
+    --font-color: #205456;
+    --sheer-font: #20545673;
+    --off-white: #e2e2e2;
+    --shadow: #90b7b0;
+
+    --motivated: #ed833a;
+    --happy: #F8C346;
+    --callm: #F3A6B4;
+    --tired: #ACDED5;
+    --stressed: #52B677;
+    --stressed: #205456;
+
+    font-family: var(--main-font);
+    color: var(--font-color);
+}
+
+h2 {
+    font-weight: 700;
+    border-bottom: 2px solid var(--happy);
+    padding-left: 10px;
+}

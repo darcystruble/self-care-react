@@ -1,0 +1,87 @@
+/* Tasks.jsx Styling */
+.tasks-outer {
+    width: 100%;
+}
+.tasks-form {
+    margin-top: 20px;
+}
+.tasks-input {
+    height: 25px;
+    width: 250px;
+    padding: 5px;
+
+    font-family: var(--main-font);
+    font-size: 1rem;
+
+    border: 2px solid var(--font-color);
+    border-radius: 25px;
+}
+.tasks-btn {
+    height: 40px;
+    margin-left: 5px;
+    padding: 5px;
+    background-color: var(--tired);
+
+    font-family: var(--main-font);
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: var(--font-color);
+
+    border: 2px solid var(--font-color);
+    border-radius: 25px;
+    box-shadow: 3px 3px var(--shadow);
+}
+
+/* TaskList.jsx Styling */
+.task-li {
+    display: flex;
+    justify-content: space-between;
+
+    margin: 5px 0;
+    width: 100%;
+}
+
+/* First grouping: Checkbox and Text */
+.task-li-1 {
+    display: flex;
+}
+/* checked/unchecked */
+.checkbox {
+    width: 32px;
+    height: 32px;
+}
+.checked {
+    background: url('./assets/checked.svg');
+    background-size: contain;
+}
+.unchecked {
+    background: url('./assets/unchecked.svg');
+    background-size: contain;
+}
+/* Text Area */
+.task-text {
+    padding: 5px 0 0 5px;
+    font-size: 1.3rem;
+}
+
+/* Second grouping: Edit buttons */
+.task-btns {
+    display: flex;
+}
+.task-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 32px;
+    height: 32px;
+    margin: 0 3px;
+    background-color: var(--off-white);
+
+    font-family: var(--emoji-font);
+    color: var(--sheer-font);
+    font-size: 1.1rem;
+
+    border: 3px solid var(--off-white);
+    border-radius: 50%;
+}
